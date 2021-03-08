@@ -177,7 +177,7 @@ public class AddInfoUI extends JFrame {
             }
             try {
                 con = DriverManager.getConnection
-                        ("jdbc:sqlserver://localhost:1433;DatabaseName=address", "sa", "2ooo0530");
+                        ("jdbc:sqlserver://localhost:1433;DatabaseName=address", "sa", "xxxxxxxx");
                 System.out.println("数据库连接成功");
             } catch (Exception exy) {
                 System.out.println("数据库连接失败");
@@ -222,7 +222,7 @@ public class AddInfoUI extends JFrame {
             }
             try {
                 con = DriverManager.getConnection
-                        ("jdbc:sqlserver://localhost:1433;DatabaseName=address", "sa", "2ooo0530");
+                        ("jdbc:sqlserver://localhost:1433;DatabaseName=address", "sa", "xxxxxxxx");
                 System.out.println("数据库连接成功");
             } catch (Exception exy) {
                 System.out.println("数据库连接失败");
